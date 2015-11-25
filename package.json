@@ -3,9 +3,8 @@
   "version": "0.0.8",
   "description": "A tool to help backup your mongodb databases to s3.",
   "license": "Beerware",
-  "dependencies" : {
-    "node-mongodb-s3-backup" : "git://github.com/erikmattheis/node-mongodb-s3-backup.git"
+  "dependencies": {
+    "mongoose": "^4.2.7",
+    "node-mongodb-s3-backup": "git://github.com/erikmattheis/node-mongodb-s3-backup.git"
   }
 }
-
-
